@@ -1,32 +1,25 @@
 package com.example.testapplication
 
 import android.content.Intent
-import android.os.Bundle
-import android.util.DisplayMetrics
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import kotlin.random.Random
+import android.os.Bundle
+import android.widget.Button
 
-
-class MainActivity : AppCompatActivity() {
+class CirclesStart : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.start_circles)
 
-        setContentView(R.layout.activity_main);
-
-        val button = findViewById<Button>(R.id.button)
+        val button = findViewById<Button>(R.id.button_circles_start)
 
         button?.setOnClickListener()
         {
-            val intent = Intent(this@MainActivity, CirclesStart::class.java)
+            val intent = Intent(this@CirclesStart, CirclesTask::class.java)
 
             // start the activity connect to the specified class
 
             // start the activity connect to the specified class
             startActivity(intent)
         }
-
     }
-
-
 }
