@@ -3,14 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/drawable/roundedbutton.xml" value="0.1845" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/activity_circles_start.xml" value="0.20516304347826086" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/activity_circles_task.xml" value="0.13020833333333334" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/circle_task.xml" value="0.13020833333333334" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/circles_task.xml" value="0.13020833333333334" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/end_circles.xml" value="0.4" />
-        <entry key="..\:/Android_Apps/INFOMMOB/app/src/main/res/layout/start_circles.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/drawable/roundedbutton.xml" value="0.172" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/circles_task.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/end_circles.xml" value="0.2" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/end_text.xml" value="0.365625" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/end_typing.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/ending_screen.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/intermediate_screen.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/start_circles.xml" value="0.176" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/start_text.xml" value="0.365625" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/start_textprac.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/start_typing.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/starting_screen.xml" value="0.2956204379562044" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/task1.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/task2.xml" value="0.11202185792349727" />
+        <entry key="..\:/Users/sanna/StudioProjects/INFOMMOB/app/src/main/res/layout/text_task.xml" value="0.30085470085470084" />
       </map>
     </option>
   </component>

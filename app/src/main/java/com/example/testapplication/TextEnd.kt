@@ -5,18 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class CirclesStart : AppCompatActivity() {
+class TextEnd : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.start_circles)
+        setContentView(R.layout.end_text)
 
-        val button = findViewById<Button>(R.id.button_text1_start)
+        val button = findViewById<Button>(R.id.button_circles_end)
 
         button?.setOnClickListener()
         {
-            val intent = Intent(this@CirclesStart, CirclesTask::class.java)
+            val intent = Intent(this@TextEnd, MainActivity::class.java)
 
-            // start the activity connect to the specified class
             startActivity(intent)
         }
     }

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class CirclesStart : AppCompatActivity() {
+class CirclesPracticeStart : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.start_circles)
@@ -14,7 +14,7 @@ class CirclesStart : AppCompatActivity() {
 
         button?.setOnClickListener()
         {
-            val intent = Intent(this@CirclesStart, CirclesTask::class.java)
+            val intent = Intent(this@CirclesPracticeStart, CirclesPracticeTask::class.java)
 
             // start the activity connect to the specified class
             startActivity(intent)
