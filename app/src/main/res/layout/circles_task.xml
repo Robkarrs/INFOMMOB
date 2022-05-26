@@ -6,8 +6,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="52dp"
-        android:layout_height="55dp"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
         android:text=""
         android:background = "@drawable/roundedbutton"
         tools:layout_editor_absoluteX="69dp"
