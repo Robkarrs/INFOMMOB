@@ -35,13 +35,43 @@ class CirclesTask : AppCompatActivity() {
 
         width = width - 180
         height = height - 360
-        val totalCircles = 10
+        val stepWNum = 5
+        val stepHNum = 10
+        val widthPad = 50
+        val heightPad = 80
+        val totalSteps = stepWNum * stepHNum
+        val stepWSize = width/stepWNum
+        val stepHSize = height/stepHNum
+        var allSteps = Array(50,{i->i*1})
+        allSteps.shuffle()
+        println(allSteps)
 
-        var buttonX = Random.nextInt(0, width).toFloat()
-        var buttonY = Random.nextInt(0, height).toFloat()
+        println("stepWSize "+stepWSize)
+        println("stepHSize "+stepHSize)
 
-        buttonCircle.x = buttonX;
-        buttonCircle.y = buttonY;
+        /*var arrayCompleted = false
+
+        while(arrayCompleted == false){
+            random
+            allSteps[0] = 0
+        }*/
+
+
+
+        val totalCircles = 60
+
+        var ind = 0
+
+        println("Index "+allSteps[ind])
+
+        var temp = allSteps[ind]/10
+        println("Temp "+temp)
+        var buttonX = (temp*stepWSize).toFloat()
+        var buttonY = ((allSteps[ind]-10*temp)*stepHSize).toFloat()
+
+
+        buttonCircle.x = widthPad+buttonX
+        buttonCircle.y = heightPad+buttonY
 
         var lastTime = System.currentTimeMillis();
         var first = true;
@@ -101,15 +131,27 @@ class CirclesTask : AppCompatActivity() {
                 first=false;
             }
 
-            buttonX = Random.nextInt(0, width).toFloat()
-            buttonY = Random.nextInt(0, height).toFloat()
-            //println(buttonX)
-            //println(buttonY)
-            buttonCircle.x = buttonX
-            buttonCircle.y = buttonY
+            //buttonX = Random.nextInt(0, width).toFloat()
+            //buttonY = Random.nextInt(0, height).toFloat()
+
+            var ind = circleNum%50
+
+            println("Index "+allSteps[ind])
+
+            var temp = allSteps[ind]/10
+            println("Temp "+temp)
+            buttonX = (temp*stepWSize).toFloat()
+            buttonY = ((allSteps[ind]-10*temp)*stepHSize).toFloat()
+
+
+            println("X "+buttonX)
+            println("Y "+buttonY)
+            buttonCircle.x = widthPad+buttonX
+            buttonCircle.y = heightPad+buttonY
 
             if(circleNum==totalCircles) {
                 differenceAvg = differenceAvg/(circleNum-1)
+                circleNum=0
 
                 //Saving the time scores
                 try {
