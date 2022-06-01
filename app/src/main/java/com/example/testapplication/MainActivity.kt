@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         }
         buttonText?.setOnClickListener()
         {
-            val intent = Intent(this@MainActivity, TextStart::class.java)//
+            val intent = Intent(this@MainActivity, TextTask::class.java)
             startActivity(intent)
         }
 

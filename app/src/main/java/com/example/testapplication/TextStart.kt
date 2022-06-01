@@ -1,5 +1,6 @@
 package com.example.testapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,10 +16,10 @@ class TextStart : AppCompatActivity() {
 
         button1?.setOnClickListener()
         {
-            //val intent = Intent(this@TextStart, Text1Task::class.java)
+            val intent = Intent(this@TextStart, TextTask::class.java)
 
             // start the activity connect to the specified class
-            //startActivity(intent)
+            startActivity(intent)
         }
         button2?.setOnClickListener()
         {
