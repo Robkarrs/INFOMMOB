@@ -31,6 +31,12 @@
             android:name=".CirclesEnd"
             android:exported="false" />
         <activity
+            android:name=".TextTask"
+            android:exported="false" />
+        <activity
+            android:name=".TextStart"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
