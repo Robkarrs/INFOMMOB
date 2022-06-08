@@ -10,7 +10,7 @@ class CirclesStart : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.start_circles)
 
-        val button = findViewById<Button>(R.id.button_text1_start)
+        val button = findViewById<Button>(R.id.button_text0_start)
 
         button?.setOnClickListener()
         {

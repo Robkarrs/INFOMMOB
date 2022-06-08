@@ -14,19 +14,12 @@ import java.io.File
 
 
 
-class TextTask  : AppCompatActivity(){
+class TextTaskprac  : AppCompatActivity(){
     private val filepath = "MyFileStorage"
     val textList = arrayOf(
-        "my preferred treat is chocolate",
-        "question that must be answered",
-        "there will be some fog tonight",
-        "physics and chemistry are hard",
-        "we are subjects and must obey",
-        "great disturbance in the force",
-        "wear a crown with many jewels",
-        "my bank account is overdrawn",
-        "movie about a nutty professor",
-        "king sends you to the tower")
+        "healthy food is good for you",
+        "hands on experience with a job",
+        "earthquakes are predictable",)
 
     var count = 0
     var backspaceCount = 0
@@ -38,7 +31,7 @@ class TextTask  : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.text_task)
+        setContentView(R.layout.text_taskprac)
         val displayText = findViewById<TextView>(R.id.textDisplay)
         displayText.text = textList[count]
         startTime = System.currentTimeMillis()
@@ -89,27 +82,8 @@ class TextTask  : AppCompatActivity(){
         }
         else
         {
-            //Store File
-            val difference = System.currentTimeMillis() - startTime
-            val file = File(getExternalFilesDir(filepath), "task1_" + datetime.toString() + ".txt")
-            //val path = Environment.getExternalStorageDirectory()
-            println(getExternalFilesDir(filepath))
-            file.createNewFile()
-            for (i in textScore.indices) {
-                try {
-                    file.appendText("Errors: " + textScore[i].toString() + " Corrections: " + errorScore[i].toString()+ "\n")
-                } catch (e: Exception) {
-                    e.printStackTrace()
-                }
-            }
-            try {
-                file.appendText("Time: " + difference + "\n")
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-
             //Exit game
-            val intent = Intent(this@TextTask, TextEnd::class.java)
+            val intent = Intent(this@TextTaskprac, TextEnd::class.java)
             // start the activity connect to the specified class
             startActivity(intent)
         }

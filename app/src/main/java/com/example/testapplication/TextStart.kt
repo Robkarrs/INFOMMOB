@@ -23,13 +23,17 @@ class TextStart : AppCompatActivity() {
         }
         button2?.setOnClickListener()
         {
-            //val intent = Intent(this@TextStart, Text2Task::class.java)
-            //startActivity(intent)
+            val intent = Intent(this@TextStart, TextTask2::class.java)
+
+            // start the activity connect to the specified class
+            startActivity(intent)
         }
         button3?.setOnClickListener()
         {
-            //val intent = Intent(this@TextStart, Text3Task::class.java)
-            //startActivity(intent)
+            val intent = Intent(this@TextStart, TextTask3::class.java)
+
+            // start the activity connect to the specified class
+            startActivity(intent)
         }
     }
 }

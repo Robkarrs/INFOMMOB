@@ -22,19 +22,28 @@
             android:name=".CirclesTask"
             android:exported="false" />
         <activity
-            android:name=".Circles_start"
-            android:exported="false" />
-        <activity
-            android:name=".Circles_task"
-            android:exported="false" />
-        <activity
             android:name=".CirclesEnd"
+            android:exported="false" />
+        <activity
+        android:name=".TextPracticeStart"
+        android:exported="false" />
+        <activity
+            android:name=".TextTaskprac"
             android:exported="false" />
         <activity
             android:name=".TextTask"
             android:exported="false" />
         <activity
+            android:name=".TextTask2"
+            android:exported="false" />
+        <activity
+            android:name=".TextTask3"
+            android:exported="false" />
+        <activity
             android:name=".TextStart"
+            android:exported="false" />
+        <activity
+            android:name=".TextEnd"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

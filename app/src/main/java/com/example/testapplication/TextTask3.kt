@@ -4,29 +4,26 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.view.KeyEvent
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import java.io.File
 
-
-
-class TextTask  : AppCompatActivity(){
+class TextTask3  : AppCompatActivity(){
     private val filepath = "MyFileStorage"
+
     val textList = arrayOf(
-        "my preferred treat is chocolate",
-        "question that must be answered",
-        "there will be some fog tonight",
-        "physics and chemistry are hard",
-        "we are subjects and must obey",
-        "great disturbance in the force",
-        "wear a crown with many jewels",
-        "my bank account is overdrawn",
-        "movie about a nutty professor",
-        "king sends you to the tower")
+        "drove my chevy to the levee",
+        "I took the rover from the shop",
+        "goldilocks and the three bears",
+        "the assignment is due today",
+        "what you see is what you get",
+        "head shoulders knees and toes",
+        "all good boys deserve fudge",
+        "the back yard of our house",
+        "world population is growing",
+        "this is a non profit organization")
 
     var count = 0
     var backspaceCount = 0
@@ -38,7 +35,7 @@ class TextTask  : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.text_task)
+        setContentView(R.layout.text_task3)
         val displayText = findViewById<TextView>(R.id.textDisplay)
         displayText.text = textList[count]
         startTime = System.currentTimeMillis()
@@ -91,7 +88,7 @@ class TextTask  : AppCompatActivity(){
         {
             //Store File
             val difference = System.currentTimeMillis() - startTime
-            val file = File(getExternalFilesDir(filepath), "task1_" + datetime.toString() + ".txt")
+            val file = File(getExternalFilesDir(filepath), "task3_" + datetime.toString() + ".txt")
             //val path = Environment.getExternalStorageDirectory()
             println(getExternalFilesDir(filepath))
             file.createNewFile()
@@ -109,7 +106,7 @@ class TextTask  : AppCompatActivity(){
             }
 
             //Exit game
-            val intent = Intent(this@TextTask, TextEnd::class.java)
+            val intent = Intent(this@TextTask3, TextEnd::class.java)
             // start the activity connect to the specified class
             startActivity(intent)
         }

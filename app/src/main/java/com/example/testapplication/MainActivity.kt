@@ -32,6 +32,18 @@ class MainActivity : AppCompatActivity() {
         val buttonCircles = findViewById<Button>(R.id.buttonCircles)
         val buttonText = findViewById<Button>(R.id.buttonText)
 
+
+        buttonCircles?.setOnClickListener()
+        {
+            val intent = Intent(this@MainActivity, CirclesStart::class.java)
+            startActivity(intent)
+        }
+        buttonText?.setOnClickListener()
+        {
+            val intent = Intent(this@MainActivity, TextStart::class.java)
+            startActivity(intent)
+        }
+
         buttonCirclesPrac?.setOnClickListener()
         {
             val intent = Intent(this@MainActivity, CirclesPracticeStart::class.java)
@@ -42,17 +54,6 @@ class MainActivity : AppCompatActivity() {
         buttonTextPrac?.setOnClickListener()
         {
             val intent = Intent(this@MainActivity, TextPracticeStart::class.java)
-            startActivity(intent)
-        }
-
-        buttonCircles?.setOnClickListener()
-        {
-            val intent = Intent(this@MainActivity, CirclesStart::class.java)
-            startActivity(intent)
-        }
-        buttonText?.setOnClickListener()
-        {
-            val intent = Intent(this@MainActivity, TextTask::class.java)
             startActivity(intent)
         }
 

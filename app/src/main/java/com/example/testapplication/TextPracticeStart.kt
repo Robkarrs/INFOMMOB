@@ -10,11 +10,11 @@ class TextPracticeStart : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.start_textprac)
 
-        val button = findViewById<Button>(R.id.button_text1_start)
+        val button = findViewById<Button>(R.id.button_text0_start)
 
         button?.setOnClickListener()
         {
-            val intent = Intent(this@TextPracticeStart, TextPracticeTask::class.java)
+            val intent = Intent(this@TextPracticeStart, TextTaskprac::class.java)
 
             // start the activity connect to the specified class
             startActivity(intent)
