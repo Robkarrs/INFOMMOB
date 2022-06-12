@@ -1,0 +1,33 @@
+Errors: 0 Corrections: 3
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 3
+Errors: 6 Corrections: 1
+Errors: 0 Corrections: 2
+Errors: 13 Corrections: 1
+Errors: 0 Corrections: 1
+Time: 79107
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 8
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 6
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 2
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 5
+Errors: 0 Corrections: 4
+Time: 78928
+Errors: 0 Corrections: 7
+Errors: 0 Corrections: 5
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 10
+Errors: -1 Corrections: 12
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 3
+Time: 80246

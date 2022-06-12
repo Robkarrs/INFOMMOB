@@ -1,0 +1,22 @@
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 3 Corrections: 1
+Errors: 32 Corrections: 3
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 2
+Errors: 2 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 32 Corrections: 1
+Time: 73877
+Errors: 0 Corrections: 7
+Errors: -18 Corrections: 1
+Errors: 0 Corrections: 6
+Errors: 0 Corrections: 3
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 6
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 1
+Errors: 0 Corrections: 3
+Errors: 0 Corrections: 7
+Time: 80539
